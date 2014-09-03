@@ -335,7 +335,7 @@ i {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
   text-align: center;
-  background: #00a99d;
+  background: #082230;
 }
 .mainmenu .menuwrapper {
   max-width: 1200px;
@@ -352,7 +352,7 @@ i {
   font-size: 17px;
   text-transform: uppercase;
   margin: 0.3em 0 0 1em;
-  color: rgba(0, 0, 0, 0.3);
+  color: #fff;
   font-weight: 700;
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
   -webkit-transition: all 0.5s ease;
@@ -407,7 +407,7 @@ i {
 }
 .mainmenu .menuwrapper .socialblock .socialicon i {
   font-size: 22px;
-  color: rgba(0, 0, 0, 0.3);
+  color: #fff;
   position: absolute;
 }
 .mainmenu .menuwrapper .socialblock .socialicon i:hover {
