@@ -225,7 +225,7 @@ i {
 .colorblock .button {
   display: inline-block;
   padding: 0.8em 2em;
-  background: rgba(0, 0, 0, 0.2);
+  background: transparent;
   border-radius: 4px;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -234,7 +234,7 @@ i {
   transition: all 0.5s ease;
 }
 .colorblock .button:hover {
-  background: rgba(0, 0, 0, 0.4);
+  background: transparent;
 }
 .colorblock .button:active {
   background: rgba(255, 255, 255, 0.1);
@@ -856,16 +856,16 @@ i {
   z-index: 100;
 }
 .priceblock .block-container .pricetable .bronze {
-  background: #2898bf;
+  background: #888;
 }
 .priceblock .block-container .pricetable .silver {
-  background: #007fb7;
+  background: #444;
 }
 .priceblock .block-container .pricetable .gold {
-  background: #2898bf;
+  background: #888;
 }
 .priceblock .block-container .pricetable .diamond {
-  background: #007fb7;
+  background: #444;
 }
 .priceblock .block-container .infoblock {
   margin-bottom: 40px;
@@ -1454,88 +1454,16 @@ i {
   .homeblock {
     background: url(../img/bg-home.jpg) no-repeat center #082230;
   }
-  .modalmask {
-    background: rgba(0,0,0,0.8);
-    bottom: 0;
-    color: #333;
-    font-family: "Lato", sans-serif;
-    font-size: 16px;
-    left: 0;
-    opacity:0;
-    -webkit-transition: opacity 400ms ease-in;
-    -moz-transition: opacity 400ms ease-in;
-    transition: opacity 400ms ease-in;
-    position: fixed;
-    pointer-events: none;
-    right: 0; 
-    text-align: left;   
-    top: 0;  
-    z-index: 99999;   
-}
-.modalmask:target {
-    opacity:1;
-    pointer-events: auto;
-}
-.modalbox{
-    width: 800px;
-    position: relative;
-    padding: 5px 20px 13px 20px;
-    background: #fff;
-    border-radius:3px;
-    -webkit-transition: all 500ms ease-in;
-    -moz-transition: all 500ms ease-in;
-    transition: all 500ms ease-in;
-     
-}
-.movedown {
-    margin: 0 auto;
-}
-.rotate {
-    margin: 10% auto;
-    -webkit-transform: scale(-5,-5);
-    transform: scale(-5,-5);
-}
-.resize {
-    margin: 10% auto;
-    width:0;
-    height:0;
- 
-}
-.modalmask:target .movedown{       
-    margin:10% auto;
-}
-.modalmask:target .rotate{     
-    transform: rotate(360deg) scale(1,1);
-        -webkit-transform: rotate(360deg) scale(1,1);
-}
- 
-.modalmask:target .resize{
-    width:400px;
-    height:200px;
-}
-.close {
-    background: #606061;
-    color: #fff;
-    line-height: 25px;
-    position: absolute;
-    right: 1px;
-    text-align: center;
-    top: 1px;
-    width: 24px;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius:3px;
- 
-}
- 
-.close:hover {
-    background: #606061;
-    color:#fff;
-}
-.ver {
+  .img-responsive {
+   display: block;
+   height: auto;
+   max-width: 100%;
+  }
+  .ver {
     height: 30px;
     width: 70px;
-}
-.enlace {
-    color: #009fe3;
-}
+  }
+  .inscribete {
+    height: 45px;
+    width: 140px;
+  }
