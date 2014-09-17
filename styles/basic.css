@@ -54,7 +54,7 @@ textarea {
 input:focus,
 textarea:focus {
   outline: none;
-  border-color: #00a99d;
+  border-color: #009fe3;
 }
 button {
   font-family: 'Lato', sans-serif;
