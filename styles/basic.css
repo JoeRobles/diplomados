@@ -72,10 +72,10 @@ button {
   transition: all 0.5s ease;
 }
 button:hover {
-  background-color: #00c3b5;
+  background-color: #888;
 }
 button:active {
-  background-color: #009085;
+  background-color: #009fe3;
 }
 h1 {
   font-size: 48px;
