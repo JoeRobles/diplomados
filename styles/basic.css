@@ -62,7 +62,7 @@ button {
   padding: 8px 18px;
   border: none;
   background-color: #009fe3;
-  color: #fff !important;
+  color: #fffff;
   font-weight: 400;
   cursor: pointer;
   -webkit-transition: all 0.5s ease;
@@ -1458,12 +1458,13 @@ i {
    display: block;
    height: auto;
    max-width: 100%;
+   padding-bottom: 20px;
   }
   .ver {
     height: 30px;
     width: 70px;
   }
   .inscribete {
-    height: 45px;
-    width: 140px;
+    height: 40px;
+    width: 120px;
   }
