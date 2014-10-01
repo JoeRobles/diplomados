@@ -257,10 +257,12 @@ i {
   padding: 80px 0 0 0;
 }
 .block .block-container .title {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: 700;
+  font-size: 2.2em !important;
+  margin: 40px 0 0.2em 0;
   text-transform: uppercase;
   text-align: center;
-  font-weight: 300;
-  margin: 40px 0 0.2em 0;
 }
 .block .block-container .description {
   font-size: 20px;
@@ -848,21 +850,21 @@ i {
   text-transform: uppercase;
 }
 .priceblock .block-container .pricetable .priceitem:hover {
-  -webkit-transform: rotate(0) scale(1.1);
-  -moz-transform: rotate(0) scale(1.1);
-  -ms-transform: rotate(0) scale(1.1);
-  -o-transform: rotate(0) scale(1.1);
-  transform: rotate(0) scale(1.1);
+  -webkit-transform: rotate(0) scale(1.04);
+  -moz-transform: rotate(0) scale(1.04);
+  -ms-transform: rotate(0) scale(1.04);
+  -o-transform: rotate(0) scale(1.04);
+  transform: rotate(0) scale(1.04);
   z-index: 100;
 }
 .priceblock .block-container .pricetable .bronze {
-  background: #888;
+  background: #032560;
 }
 .priceblock .block-container .pricetable .silver {
-  background: #444;
+  background: #ff6d00;
 }
 .priceblock .block-container .pricetable .gold {
-  background: #888;
+  background: #034e68;
 }
 .priceblock .block-container .pricetable .diamond {
   background: #444;
