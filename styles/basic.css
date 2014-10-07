@@ -1470,3 +1470,24 @@ i {
     height: 40px;
     width: 120px;
   }
+  .mas-informacion {
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 15px;
+    text-decoration: none !important;
+    text-transform: none !important;
+  }
+  a.mas-informacion {
+    background: #ff6d00;
+    color: #fff !important;
+    text-decoration: none !important;
+  }
+
+  a.cta-button-yellow:hover {
+    background-color: #ff6d00;
+    color: #fff !important;
+    text-decoration: none !important;
+  }
