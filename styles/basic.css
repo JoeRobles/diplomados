@@ -1491,3 +1491,8 @@ i {
     color: #fff !important;
     text-decoration: none !important;
   }
+
+  .iconos {
+    height: 65px;
+    width: 52px;
+  }
