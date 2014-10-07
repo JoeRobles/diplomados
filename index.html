@@ -2204,10 +2204,11 @@
         <div class="input-container">
             <div class="wrapper">
                 <h3 class="title">Formulario</h3>
-                <input type="text" name="name" placeholder="Nombre">
-                <input type="text" name="mail" placeholder="E-mail">
-                <textarea name="message" placeholder="Mensaje"></textarea>
-                <button name="send">ENVIAR</button>
+                <form action="contacto.php" method="post">
+                <input id="nombre" title="Se necesita nombre" type="text" name="nombre" placeholder="Nombre" required/>
+                <input id="email" title="Se necesita e-mail" type="text" name="mail" placeholder="E-mail" required/>
+                <textarea id="nensaje" name="mensaje" placeholder="Mensaje"></textarea>
+                <button id="submit" type="submit" name="submit">ENVIAR</button>
             </div>
         </div>
     </div>
