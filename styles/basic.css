@@ -1496,3 +1496,7 @@ i {
     height: 65px;
     width: 52px;
   }
+  iframe {
+    height: 670px;
+    width: 100%;
+  }
