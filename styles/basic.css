@@ -1500,3 +1500,9 @@ i {
     height: 670px;
     width: 100%;
   }
+  .formulario {
+    text-align: left;
+  }
+  .imput {
+    width: 232px;
+  }

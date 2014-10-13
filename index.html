@@ -189,11 +189,15 @@
                         <img class="img-responsive" src="img/san-marcos/potencial-humano.jpg">
                         <p>Una vez concluidos los estudios del Diploma, el participante desarrollará la habilidad de poder liderar el comportamiento y actitud de las personas en las organizaciones laborales.</p>
                         <p>Este liderazgo le permitirá desarrollarse en un ámbito de interacción social en el cual se podrán alcanzar metas comunes.</p>
+                        <a class="mas-informacion" href="#contacts" target="_blank" title="Más información">Descarga Brochure</a>
                       </div>
                       <div class="modal-footer">
-                        <a class="mas-informacion" href="#contacts" target="_blank" title="Más información">Más información</a>
-                        <a class="mas-informacion" href="#contacts" target="_blank" title="Matricula Online">Matrícula Online</a>
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                        <p>Déjanos tus datos para contactarte</p>
+                        <form class="formulario" action="contacto.php" method="post">
+                            <input class="imput" id="nombre" title="Se necesita nombre" type="text" name="nombre" placeholder="Nombre" required/>
+                            <input class="imput" id="email" title="Se necesita e-mail" type="text" name="mail" placeholder="E-mail" required/>
+                            <button id="submit" type="submit" name="submit">ENVIAR</button>
+                        </form>
                       </div>
                     </div>
                   </div>
@@ -1719,7 +1723,7 @@
                         </div>
                         <div class="service include">
                             <span>2. Gestión del Potencial Humano</span><br>
-                            <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#3"><img class="ver" src="img/ver-mas.png"></button>
+                            <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#3">Más información</button>
                         </div>
                         <div class="service exclude">
                             <span>3. Habilidades de Gerencia y Dirección</span><br>
