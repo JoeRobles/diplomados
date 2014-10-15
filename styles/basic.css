@@ -768,7 +768,7 @@ i {
   position: relative;
 }
 .teamblock .block-container .teamcontainer .personal:hover .photo {
-  border-color: #00a99d;
+  border-color: #009fe3;
   -webkit-transform: rotate(0) scale(1.2);
   -moz-transform: rotate(0) scale(1.2);
   -ms-transform: rotate(0) scale(1.2);
