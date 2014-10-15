@@ -1509,3 +1509,7 @@ i {
     height: 50px;
     width: 50px;
   }
+  iframe {
+    height: auto;
+    width: auto;
+  }
