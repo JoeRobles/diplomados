@@ -1491,7 +1491,6 @@ i {
     color: #fff !important;
     text-decoration: none !important;
   }
-
   .iconos {
     height: 65px;
     width: 52px;
@@ -1509,4 +1508,8 @@ i {
   .informacion {
     height: 21px;
     width: 138px;
+  }
+  .play-youtube {
+    height: 50px;
+    width: 50px;
   }
