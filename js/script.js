@@ -81,7 +81,7 @@ $(document).ready(function(){
         else{
             $("body").queryLoader2({
                 barColor: "#fff",
-                backgroundColor: "#00a99d",
+                backgroundColor: "#009fe3",
                 percentage: true,
                 barHeight: 1,
                 completeAnimation: "grow",
