@@ -733,8 +733,8 @@ i {
   margin: 0 1%;
 }
 .teamblock .block-container .teamcontainer .personal .photo {
-  max-width: 200px;
-  max-height: 200px;
+  max-width: 150px;
+  max-height: 150px;
   border: 5px solid #c8c8c8;
   border-radius: 50%;
   overflow: hidden;
