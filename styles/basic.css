@@ -1525,3 +1525,7 @@ i {
     text-align: left;
     text-transform: inherit;
   }
+  .logo-titulo  {
+    height: 162px;
+    width: 130px;
+  }
